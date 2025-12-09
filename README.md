@@ -132,3 +132,44 @@ Services scanned
 Summary report
 
 
+
+
+
+
+
+
+
+The output will be like this
+
+--- Running CloudVuln Scanner ---
+
+Security Findings:
+ - [HIGH] IAM Role 'cdk-hnb659fds-cfn-exec-role-793976186299-us-east-1' has admin (*:* permissions).
+ - [HIGH] Security Group 'launch-wizard-2' (sg-014b9d89af6ced762) allows 0.0.0.0/0 on port 80
+ - [HIGH] Security Group 'launch-wizard-2' (sg-014b9d89af6ced762) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 80
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 1805
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8000
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 5000
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8999
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8086
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8082
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 3000
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 3306
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8088
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 443
+ - [HIGH] Security Group 'launch-wizard-1' (sg-011451653a45f17bd) allows 0.0.0.0/0 on port 8081
+ - [HIGH] Security Group 'default' (sg-062bded0e6b8c816b) allows 0.0.0.0/0 on port 8080
+ - [HIGH] Security Group 'default' (sg-062bded0e6b8c816b) allows 0.0.0.0/0 on port 8000
+ - [HIGH] Security Group 'default' (sg-062bded0e6b8c816b) allows 0.0.0.0/0 on port 1805
+ - [HIGH] Security Group 'default' (sg-062bded0e6b8c816b) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-3' (sg-0b00e374f595f86dc) allows 0.0.0.0/0 on port 1805
+ - [HIGH] Security Group 'launch-wizard-3' (sg-0b00e374f595f86dc) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-3' (sg-0b00e374f595f86dc) allows 0.0.0.0/0 on port 3000
+ - [HIGH] Security Group 'ec2_ebs1' (sg-08633e8fcbbb0633b) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-4' (sg-0a27ea73c534bcab2) allows 0.0.0.0/0 on port 80
+ - [HIGH] Security Group 'launch-wizard-4' (sg-0a27ea73c534bcab2) allows 0.0.0.0/0 on port 22
+ - [HIGH] Security Group 'launch-wizard-4' (sg-0a27ea73c534bcab2) allows 0.0.0.0/0 on port 443
+
+--- Scan Complete ---
